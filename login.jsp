@@ -1,5 +1,16 @@
 <html>
     <head><title>Quiz app</title></head>
+    <style>
+    {
+        font-family:Veranda;
+    }
+    form{
+        margin-top:00px;
+        border-radius:12px;
+        box-shadow: 0 0 12px rgb(0,0,0);
+        width:1200px;
+        height:200px;
+    }
     <body>
         <%
          String myuser=request.getParameter("user");
